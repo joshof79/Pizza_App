@@ -2,11 +2,18 @@
 {% load static %}
 
 {% block content %}
-<br>
-<br>
-<br><br><br>
+<div id="main">
+{% for food in foods %}
+<div class="col-lg-4">
+	<img src="{{food.image.url}}" width="120px" height="120px">
+	<div class="box-element product">
+		<h6><strong>{{food.name}}</strong></h6>
+		<hr>
 
-<h1>Menu Page</h1>
-
+		<h4><strong>${{food.price|floatformat:2}}</strong></h4>
+	</div>
+</div>
+{% endfor %}
+</div>
 
 {% endblock content %}

@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .models import *
 
 
 def home(request):
@@ -14,5 +15,6 @@ def about(request):
     return render(request, 'store/about.html')
 
 def menu(request):
-
-    return render(request, 'store/menu.html')
+    foods=Food.objects.all()
+    context={'foods' : foods}
+    return render(request, 'store/menu.html', context)
