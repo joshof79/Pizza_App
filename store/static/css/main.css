@@ -1,0 +1,128 @@
+a:link {color:#294f08;} a:visited {color:#152705;}
+
+h1 {
+    font-size: 36px;
+    text-align: left;
+    font-family: droid-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 24px;
+    font-family: droid-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+h3 {
+    font-size: 18px;
+    font-family: droid-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#wrapper {
+    background: white;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: droid-sans;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#date {
+	font-size: 18pt;
+	height: 26px;
+	width: 250px;
+	position: absolute;
+	top: 300px;
+	margin-left: 6px;
+	font-family: droid-serif;
+    font-style: normal;
+	color:#FFFFFF;
+}
+
+#mainnav ul {
+    background: #430000;
+    list-style-type: none;
+
+}
+#mainnav a {
+    width: 15%;
+    display: block;
+    float: left;
+    text-align: center;
+    background-color: #430000;
+    color: #FFFFFF;
+	text-decoration: none;
+	font-size: 24px;
+    font-family: droid-serif;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+#mainnav a:hover{
+	background-color: #4f4f4f;
+}
+
+#contents{
+	width: 75%;
+	float:left;
+}
+
+
+#main {
+    margin-top: 50px;
+    margin-right: 6px;
+	margin-left: 6px;
+    width: 100%;
+}
+
+#main img {
+	margin-top: 50px;
+	width: 100%;
+}
+
+
+#searchBar {
+    border-radius: 25px;
+    background-color: #430000;
+	color: white;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    width: 25%;
+    margin-left: 20px;
+	text-align: center;
+}
+
+#footer {
+	clear:left;
+    background: #430000;
+    width: 1200px;
+    height: 170px;
+    padding: 20px;
+    margin: 0px;
+    color: white;
+}
+
+#contact{
+	float: left;
+}
+#social{
+	margin-left: 875px;
+}
+
+#social img{
+	padding: 20px;
+}
+
+#copywrite {
+	float:right;
+	text-align: right;
+	margin-top: 20px;
+}
