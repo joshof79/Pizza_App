@@ -13,8 +13,9 @@
 		<hr>
 
 		<h4><strong>${{food.price|floatformat:2}}</strong></h4>
+
 	</div>
-	<a href="{{ object.get_add_to_cart_url }}" class="btn btn-outline-secondary" >Add to cart		
+	<a href="{{ food.get_add_to_cart_url }}" class="btn btn-outline-secondary" >Add to cart
 	</a>
 
 </div>
