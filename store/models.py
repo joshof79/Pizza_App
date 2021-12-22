@@ -27,17 +27,17 @@ class Food(models.Model):
     	return url
 
     def get_absolute_url(self):
-        return reverse("store:product", kwargs={
+        return reverse("product", kwargs={
             "pk" : self.pk
         })
 
     def get_add_to_cart_url(self) :
-        return reverse("store:add-to-cart", kwargs={
+        return reverse("add-to-cart", kwargs={
             "pk" : self.pk
         })
 
     def get_remove_from_cart_url(self) :
-        return reverse("store:remove-from-cart", kwargs={
+        return reverse("remove-from-cart", kwargs={
             "pk" : self.pk
         })
 
